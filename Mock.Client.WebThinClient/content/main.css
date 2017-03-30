@@ -1,0 +1,19 @@
+﻿h1 { margin-bottom: 1em; }
+h1, .actions { text-align: center; }
+.actions { margin: 0.5em 0; }
+
+.hidden {
+    display: none;
+}
+
+.result{
+    cursor: pointer;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px dashed #eee;
+}
+
+.status0 { color: #b00; }
+.status1 { color: #ff6a00; }
+.status2 { color: #ee0; }
+.status3 { color: #0a0; }
