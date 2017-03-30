@@ -2,31 +2,31 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Service.LoadBalancer.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="S1" Type="System.String" Scope="User">
+    <Setting Name="S1" Type="System.String" Scope="Application">
       <Value Profile="(Default)">http://localhost:22222/simulation</Value>
     </Setting>
-    <Setting Name="S2" Type="System.String" Scope="User">
+    <Setting Name="S2" Type="System.String" Scope="Application">
       <Value Profile="(Default)">http://localhost:33333/simulation</Value>
     </Setting>
-    <Setting Name="AdminMail" Type="System.String" Scope="User">
+    <Setting Name="AdminMail" Type="System.String" Scope="Application">
       <Value Profile="(Default)">vkocjancic@gmail.com</Value>
     </Setting>
-    <Setting Name="SmtpServer" Type="System.String" Scope="User">
+    <Setting Name="SmtpServer" Type="System.String" Scope="Application">
       <Value Profile="(Default)">mail.server.com</Value>
     </Setting>
-    <Setting Name="SmtpPort" Type="System.Int32" Scope="User">
+    <Setting Name="SmtpPort" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">25</Value>
     </Setting>
-    <Setting Name="SmtpUsername" Type="System.String" Scope="User">
+    <Setting Name="SmtpUsername" Type="System.String" Scope="Application">
       <Value Profile="(Default)">user</Value>
     </Setting>
-    <Setting Name="SmtpPassword" Type="System.String" Scope="User">
+    <Setting Name="SmtpPassword" Type="System.String" Scope="Application">
       <Value Profile="(Default)">pwd</Value>
     </Setting>
-    <Setting Name="FromAddress" Type="System.String" Scope="User">
+    <Setting Name="FromAddress" Type="System.String" Scope="Application">
       <Value Profile="(Default)">vkocjancic@gmail.com</Value>
     </Setting>
-    <Setting Name="UriEndpoint" Type="System.String" Scope="User">
+    <Setting Name="UriEndpoint" Type="System.String" Scope="Application">
       <Value Profile="(Default)">http://localhost:11111/simulation</Value>
     </Setting>
   </Settings>

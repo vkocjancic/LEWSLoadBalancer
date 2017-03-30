@@ -23,111 +23,84 @@ namespace Service.LoadBalancer.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:22222/simulation")]
         public string S1 {
             get {
                 return ((string)(this["S1"]));
             }
-            set {
-                this["S1"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:33333/simulation")]
         public string S2 {
             get {
                 return ((string)(this["S2"]));
             }
-            set {
-                this["S2"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("vkocjancic@gmail.com")]
         public string AdminMail {
             get {
                 return ((string)(this["AdminMail"]));
             }
-            set {
-                this["AdminMail"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("mail.server.com")]
         public string SmtpServer {
             get {
                 return ((string)(this["SmtpServer"]));
             }
-            set {
-                this["SmtpServer"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("25")]
         public int SmtpPort {
             get {
                 return ((int)(this["SmtpPort"]));
             }
-            set {
-                this["SmtpPort"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("user")]
         public string SmtpUsername {
             get {
                 return ((string)(this["SmtpUsername"]));
             }
-            set {
-                this["SmtpUsername"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("pwd")]
         public string SmtpPassword {
             get {
                 return ((string)(this["SmtpPassword"]));
             }
-            set {
-                this["SmtpPassword"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("vkocjancic@gmail.com")]
         public string FromAddress {
             get {
                 return ((string)(this["FromAddress"]));
             }
-            set {
-                this["FromAddress"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:11111/simulation")]
         public string UriEndpoint {
             get {
                 return ((string)(this["UriEndpoint"]));
-            }
-            set {
-                this["UriEndpoint"] = value;
             }
         }
     }

@@ -44,7 +44,10 @@ namespace Service.LoadBalancer.Notification
             {
                 mail.Subject = GetSubject();
                 mail.Body = GetBody();
-                client.Credentials = new System.Net.NetworkCredential(SmtpUsername, SmtpPassword);
+                if (!string.IsNullOrEmpty(SmtpUsername))
+                {
+                    client.Credentials = new System.Net.NetworkCredential(SmtpUsername, SmtpPassword);
+                }
                 client.Send(mail);
             }
         }

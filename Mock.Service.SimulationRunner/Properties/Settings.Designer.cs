@@ -23,15 +23,12 @@ namespace Mock.Service.SimulationRunner.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:22222/simulation")]
         public string UriEndpoint {
             get {
                 return ((string)(this["UriEndpoint"]));
-            }
-            set {
-                this["UriEndpoint"] = value;
             }
         }
     }
